@@ -1,13 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import myProfileImage from "./Component/Profile/ProfilePhoto";
+import MyProfileImage from "./Component/Profile/ProfilePhoto";
 import MyFullName from "./Component/Profile/FullName";
 import MyFullAdress from "./Component/Profile/Address";
 
 function App() {
   return (
     <div className="App">
-      <myProfileImage />
+      <MyProfileImage />
       <MyFullName />
       <MyFullAdress />
     </div>
